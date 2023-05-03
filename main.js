@@ -1,5 +1,5 @@
 let gameContainer = document.getElementById('loadPreGame')
-gameContainer.style = "position:fixsed;top:0;left:0;width:100%;height:100vh; background-color:#E1ED6B;display: flex;flex-direction: column;justify-content: center;alig-items: center;background-image: url('/5dfe317d4e7b84ef2315c39541be824b.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;text-align:center;"
+gameContainer.style = "position:fixsed;top:0;left:0;width:100%;height:100vh; background-color:#E1ED6B;display: flex;flex-direction: column;justify-content: center;alig-items: center;background-image: url('5dfe317d4e7b84ef2315c39541be824b.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;text-align:center;"
 
 let video = document.getElementById('video')
 let videostarts = document.getElementById('videostart')
@@ -8,13 +8,13 @@ video.innerHTML = ""
 videostarts.innerHTML = ""
 videostart.style = "position: absolute;top: 0;left: 0;width: 100% ;height: 100vh;object - fit: cover;z-index: 998;display:node;"
 
-let videoPilot = '<video id="video1" src="/istockphoto-1126666385-640_adpp_is.mp4" muted autoplay loop></video>'
+let videoPilot = '<video id="video1" src="istockphoto-1126666385-640_adpp_is.mp4" muted autoplay loop></video>'
 
-let videoKorabl = '<video id="video1" src="/istockphoto-1216361063-640_adpp_is.mp4" muted autoplay loop></video>'
+let videoKorabl = '<video id="video1" src="istockphoto-1216361063-640_adpp_is.mp4" muted autoplay loop></video>'
 
-let videoPilot2 = '<video id="video1" src="/istockphoto-1126666366-640_adpp_is.mp4" muted autoplay loop></video>'
+let videoPilot2 = '<video id="video1" src="istockphoto-1126666366-640_adpp_is.mp4" muted autoplay loop></video>'
 
-let videoStart = '<video src="/istockphoto-1271371535-640_adpp_is.mp4" muted autoplay loop></video>'
+let videoStart = '<video src="istockphoto-1271371535-640_adpp_is.mp4" muted autoplay loop></video>'
 
 
 let audio = new Audio()
@@ -23,7 +23,7 @@ const stringTexsts = ['Представляем', 'Игру', 'Разработ�
 const preGame = () => {
   
   audio.pause()
-  audio = new Audio("/Harold Faltermeyer - Top Gun Anthem (OST из фильма _Лучший стрелок _ Top Gun_) (galamp3.com).mp3")
+  audio = new Audio("Harold Faltermeyer - Top Gun Anthem (OST из фильма _Лучший стрелок _ Top Gun_) (galamp3.com).mp3")
 
   audioPlay()
   
@@ -51,7 +51,7 @@ setTimeout(() => {
 
   setTimeout(() => {
     audio.pause()
-    audio = new Audio('/passengers_15. 50 of Light Speed.mp3')
+    audio = new Audio('passengers_15. 50 of Light Speed.mp3')
     audioPlay()
     document.getElementById('start').style = "display: none;"
 
@@ -68,7 +68,7 @@ const startGame = () => {
 
   audio.pause()
 
-  audio = new Audio('/234264-933636b6-9a23-407e-851d-b88c50828212.mp3')
+  audio = new Audio('234264-933636b6-9a23-407e-851d-b88c50828212.mp3')
 
   audioPlay()
 
@@ -83,7 +83,7 @@ const startGame = () => {
     displayContainerNone.style = "display: block"
     gameContainer.style = "display: none"
     audio.pause()
-    audio = new Audio('/ZZ Top — Bad to the bone(саундтрек к к_ф Трудный ребенок) (www.lightaudio.ru).mp3')
+    audio = new Audio('ZZ Top — Bad to the bone(саундтрек к к_ф Трудный ребенок) (www.lightaudio.ru).mp3')
     audioPlay()
   }, 8000)
 
@@ -217,7 +217,7 @@ function drawImage(imageObj) {
   }
 
 
-  let audioStreli = new Audio('/234264-3e98473e-3d08-40a2-85bc-a9b8f43dfd75.mp3')
+  let audioStreli = new Audio('234264-3e98473e-3d08-40a2-85bc-a9b8f43dfd75.mp3')
 
   group.on('touchstart', () => {
     groupStart()
@@ -235,4 +235,4 @@ var imageObj = new Image();
 imageObj.onload = function() {
   drawImage(this);
 };
-imageObj.src = '/pngwing.com.png'
+imageObj.src = 'pngwing.com.png'
