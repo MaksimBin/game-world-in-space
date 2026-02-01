@@ -1,6 +1,6 @@
 # 🌌 Game World in Space
 
-![Game Banner](assets/banner.png)
+![Game Banner](/banner.png)
 
 **Game World in Space** — демо‑игра на чистом JavaScript.  
 Ты управляешь космическим кораблём, исследуешь миры и избегаешь опасностей.  
@@ -20,10 +20,10 @@
 ## 📸 Скриншоты
 
 ### Игровое поле
-![Screenshot 1](assets/screenshot1.png)
+![Screenshot 1](/screenshot1.png)
 
 ### Полёт корабля
-![Screenshot 2](assets/screenshot2.png)
+![Screenshot 2](/screenshot2.png)
 
 ---
 
