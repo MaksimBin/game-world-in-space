@@ -20,10 +20,10 @@
 ## 📸 Скриншоты
 
 ### Игровое поле
-![Screenshot 1](/screenshot1.png)
+![Screenshot 1]()
 
 ### Полёт корабля
-![Screenshot 2](/screenshot2.png)
+![Screenshot 2](IMG_20260201_170605.jpg)
 
 ---
 
