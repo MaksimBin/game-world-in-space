@@ -1,6 +1,6 @@
 # 🌌 Game World in Space
 
-![Game Banner](https://copilot.microsoft.com/shares/homZisv5i1HzQ6uyaQsgG)
+![Game Banner](banner.jpeg)
 
 **Game World in Space** — демо‑игра на чистом JavaScript.  
 Ты управляешь космическим кораблём, исследуешь миры и избегаешь опасностей.  
